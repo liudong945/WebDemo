@@ -1,3 +1,4 @@
+@charset "gb2312";
 
 *{
 	margin: 0;
@@ -136,4 +137,11 @@ background-color: #FFF;
 	background-color: #fff;
 	padding-right: 25px;
 	border:1px solid #fff;
+}
+
+.ad{
+	width: 1000px;
+	height: 310px;
+	overflow: hidden;
+		clear:both;
 }
