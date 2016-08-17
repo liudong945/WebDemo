@@ -163,7 +163,7 @@ background-color: #FFF;
 
 .sidebar{
 	width: 230px;
-	background: #09f;
+	/*background: #09f;*/
 }
 
 .news,.course,.sidebar{
@@ -262,4 +262,18 @@ float: right;
 	line-height: 37px;
 	margin:0 15px;
 	text-align: center;
+}
+
+.video{
+	height: 185px;
+	border: 1px solid #e8e8e8;
+}
+
+.video_content{
+	height: 150px;
+}
+.sidebar_ad{
+	height: 55px;
+	border: 1px solid #e8e8e8;
+	margin-top: 10px;
 }
