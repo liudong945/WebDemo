@@ -198,3 +198,19 @@ background-color: #FFF;
 	text-decoration: none;
 	color: #999999;
 }
+
+.pic_news{
+	height: 80px;
+	margin-top: 10px;
+	line-height: 22px;
+}
+
+.pic_news img{
+	float: left;
+	margin: 0 5px;
+}
+
+.pic_news a{
+	color: #c00;
+	text-decoration: none;
+}
