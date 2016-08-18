@@ -284,7 +284,7 @@ float: right;
 	height: 200px;
 	margin-top: 10px;
 	background-color: #e8e8e8;
-
+	clear: both;
 }
 
 .copyright_content{
@@ -311,4 +311,27 @@ float: right;
 
 .copyright_content li ul li a{
 	font-size: 14px;
+}
+
+.list_main{
+	height: 350px;
+	min-height: 350px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+.news_type{
+	width: 220px;
+	height: 350px;
+	border: 1px solid #e8e8e8;
+	background-color: #9fc;
+	float: left;
+}
+
+.list_box{
+	width: 770px;
+	min-height: 350px;
+	border: 1px solid #e8e8e8;
+	background-color: #578C31;
+	float:right;
 }
