@@ -403,3 +403,21 @@ float: right;
 	color: #fff;
 	background-color: #cc1b1b;
 }
+
+.list_box h1{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	text-align: center;
+	margin:10px 0;
+}
+.list_box_newsP{
+	color: #666;
+	text-align: center;
+	border-bottom: 1px dotted #666;
+}
+.list_box_newsContent{
+	font-size: 14px;
+	padding:20px;
+	line-height: 25px;
+	text-indent: 2em;
+}
