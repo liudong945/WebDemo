@@ -401,7 +401,7 @@ float: right;
 
 .page a:hover, .page a:active{
 	color: #fff;
-	background-color: #cc1b1b;
+	background: #cc1b1b;
 }
 
 .list_box h1{
