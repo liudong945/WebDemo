@@ -6,7 +6,8 @@ img{border:none;}
 li{list-style:none;}
 input,select,textarea{outline:none;}
 textarea{resize:none;}
-a{text-decoration:none;}
+a{text-decoration:none;color: #656565;}
 /*清空浮动*/
 .clearfix:after{content:""; display:block; clear:both;}
 .clearfix{zoom:1;}
+
