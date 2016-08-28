@@ -54,3 +54,32 @@
 	background-color: #ff8c00;
 	color: #fff;
 }
+/*购物车*/
+.shopCar{
+	width: 145px;
+	height: 35px;
+	background-color: #ff8c00;
+	color: #fff;
+	margin-top: 23px;
+	margin-right: 59px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 35px;
+}
+.shopText{
+	
+	color: #fff;
+	height: 100%;
+	width: 87px;
+	border-right: #e27a00 solid 1px;
+	background: url(../images/icon/shopCar.png)10px center no-repeat;
+	text-indent: 40px;
+}
+.shopNum{
+	width: 27px;
+	height: 35px;
+	border-left: #ff9c01 solid 1px;
+	background:url(../images/icon/jiant.png) 33px center no-repeat;
+	text-align: right;
+	padding-right: 29px;
+}
