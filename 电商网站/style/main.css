@@ -83,3 +83,10 @@
 	text-align: right;
 	padding-right: 29px;
 }
+/*导航*/
+.navBox{  
+	height: 35px;
+	border-color: #1369c0;
+	color: #fff;
+}
+
