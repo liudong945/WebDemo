@@ -86,7 +86,22 @@
 /*导航*/
 .navBox{  
 	height: 35px;
-	border-color: #1369c0;
+	background-color: #1369c0;
 	color: #fff;
 }
+.shopClass{
+	width: 190px;
+	line-height: 35px;
+	text-align: center;
+}
+.shopClass i{
+	width: 11px;
+	height: 7px;
+	overflow: hidden;
+	background: url(../images/icon/down.png) left center no-repeat;
+	display: inline-block;
+	margin-left: 11px;
+}
+
+
 
