@@ -91,6 +91,10 @@
 }
 .shopClass{
 	width: 190px;
+		position: relative;
+
+}
+.shopClass h3{
 	line-height: 35px;
 	text-align: center;
 }
@@ -120,4 +124,40 @@
 }
 .nav .active{
 	background-color: #4593fd;
+}
+
+/*商品弹出列表*/
+.shopClass_show{
+	background-color:#4593fd;
+	position: absolute;
+	left: 0;
+	top: 35px;
+	width: 100%;
+}
+.shopClass_item{
+	padding:14px 10px;
+	border-bottom: 1px solid #3487f2;
+	border-top: 1px solid #5aa1fe;
+}
+.shopClass_item dt{
+	height: 22px;
+	background: url(../images/icon/sanjiao.png) right center no-repeat;
+}
+.shopClass_item .b{
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.shopClass_item a{
+color: #fff;
+}
+.shopClass_item .aLink{
+	width: 48px;
+	height: 20px;
+	background: url(../images/icon/quan.png) left center no-repeat;
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+	text-decoration: underline;
 }
