@@ -103,5 +103,21 @@
 	margin-left: 11px;
 }
 
-
-
+.nav,.shopClass{
+	font-family: "微软雅黑";
+}
+.nav{
+	line-height: 35px;
+}
+.nav li{
+	float: left;
+}
+.nav a{
+	height: 35px;
+	display: inline-block;
+	padding:0 35px;
+	color: #fff;
+}
+.nav .active{
+	background-color: #4593fd;
+}
