@@ -237,3 +237,45 @@
 	display: inline-block;
 	margin-left: 7px;
 }
+
+/*banner部分*/
+.banner_bar{
+	width: 810px;
+	height: 326px;
+	float: right;
+	position: relative;
+	overflow: hidden;
+}
+.imgBox{
+	width: 1620px;
+	height: 326px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.imgBox li{
+	float: left;
+}
+.imgBox img{
+	width: 810px;
+	height: 326px;
+	display: block;
+}
+.imgNum{
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+	width: 100%;
+	text-align: center;
+}
+.imgNum a{
+	width: 20px;
+	height: 5px;
+	overflow: hidden;
+	background-color: #fff;
+	display: inline-block;
+	margin:0 3px;
+}
+.imgNum .active{
+	background-color:	#ff7700;
+}
