@@ -411,6 +411,9 @@
 	color: #181818;
 	line-height: 30px;
 }
+.hr25{
+	height: 25px;
+}
 /*底部*/
 .footer{
 	text-align: center;
@@ -418,6 +421,7 @@
 	line-height: 24px;
 	line-height: 24px;
 	padding:50px 0;
+
 }
 .footer i{
 	font-style: normal;
@@ -429,4 +433,10 @@
 }
 .footer a:hover{
 	color: #f60;
+}
+.web{
+	padding-top: 30px;
+}
+.web img{
+	margin: 0 12px;
 }
