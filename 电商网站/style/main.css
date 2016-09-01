@@ -71,6 +71,7 @@
 	font-size: 14px;
 	font-family: "微软雅黑";
 	line-height: 35px;
+	display: inline; 
 }
 .shopText{
 	
@@ -139,6 +140,8 @@
 	left: 0;
 	top: 35px;
 	width: 100%;
+	line-height: 16px;
+	padding-bottom: 1px;
 }
 .shopClass_item{
 	padding:14px 10px;
@@ -146,7 +149,9 @@
 	border-top: 1px solid #5aa1fe;
 }
 .shopClass_item dt{
-	height: 22px;
+	height: 21px;
+	line-height: 1;
+	overflow: hidden;
 	background: url(../images/icon/sanjiao.png) right center no-repeat;
 }
 .shopClass_item .b{
