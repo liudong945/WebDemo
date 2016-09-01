@@ -344,6 +344,9 @@
 	height: 400px;
 }
 /*商品列表右侧*/
+.shopList_top{
+	margin-bottom: 15px;
+}
 .shopList_top,.shopList_sm{
 	margin-right: -4px;
 }
@@ -407,4 +410,23 @@
 	font-weight: normal;
 	color: #181818;
 	line-height: 30px;
+}
+/*底部*/
+.footer{
+	text-align: center;
+	background-color: #d4d4d4;
+	line-height: 24px;
+	line-height: 24px;
+	padding:50px 0;
+}
+.footer i{
+	font-style: normal;
+	margin: 0 5px;
+}
+
+.footer a{
+	color: #000;
+}
+.footer a:hover{
+	color: #f60;
 }
