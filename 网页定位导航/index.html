@@ -77,6 +77,19 @@
 			color: #fff;
 			background: #0088bb;
 		}
+
+		/*ie6 hack*/
+		*html, *html body{
+			background-image: url(about:blank);
+			background-attachment: fixed;
+		}
+
+		/*ie6 hack*/
+		* html #menu{
+			/*position: fixed;*/
+			position: absolute;
+			top: expression(((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+100"px");
+		}
 	</style>
 	<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
 	<script>
@@ -92,7 +105,7 @@
 					var m = $(this);
 					var itemTop = m.offset().top;
 					// console.log(itemTop)
-					if(top>itemTop){
+					if(top>itemTop - 200){
 						currentId = "#" +m.attr("id");
 					}else{
 						return false;
