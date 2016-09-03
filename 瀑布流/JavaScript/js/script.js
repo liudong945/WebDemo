@@ -1,5 +1,26 @@
 window.onload=function(){
 	waterfall("main","box");
+	var dataInt={"data":[{"src":"0.jpg"},{"src":"1.jpg"},{"src":"2.jpg"},{"src":"3.jpg"},{"src":"4.jpg"},{"src":"5.jpg"}]};
+	window.onscroll=function(){
+		if(checkScrollSlide()){
+			var oParent=document.getElementById("main");
+			//将数据块渲染到当前页面的尾部 
+			for (var i = 0; i < dataInt.data.length; i++) {
+				var oBox=document.createElement("div");
+				oBox.className="box";
+				oParent.appendChild(oBox);
+				var oPic=document.createElement("div");
+				oPic.className="pic";
+				oBox.appendChild(oPic);
+				var oImg=document.createElement("img");
+				oImg.src="images/"+dataInt.data[i].src;
+				oPic.appendChild(oImg);
+			}
+				waterfall("main","box");
+
+		}
+			// checkScrollSlide();
+	}
 }
 
 function waterfall(parent,box){
@@ -47,4 +68,16 @@ function getMinhIndex(arr,val){
 			return i;
 		}
 	}
+}
+
+//检测是否具有加载数据块的条件
+function checkScrollSlide(){
+	var oParent=document.getElementById("main");
+	var oBoxs=getByClass(oParent,"box");
+	var lastBoxh=oBoxs[oBoxs.length-1].ofsetTop+Math.floor(oBoxs[oBoxs.length-1].offsetHeight/2);
+	var scrollTop=document.body.scrollTop||document.documentElement.scrollTop;
+	var height=document.body.clientHeight||document.documentElement.clientHeight;
+	
+	return (lastBoxh<scrollTop+height)?true:false;
+	// console.log(scrollTop);
 }
