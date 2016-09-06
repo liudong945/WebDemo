@@ -531,6 +531,7 @@
 .item{
 	float: left;
 	height: 265px;
+	position: relative;
 }
 
 .item_cont{
@@ -574,6 +575,15 @@
 	margin-right: 1px;
 }
 
+
+.hot{
+	width: 52px;
+	height: 52px;
+	background: url(../images/icon/hot.png) left top no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
 .vertical li{
 	width: auto;
 	float: none;
@@ -746,4 +756,63 @@
 	display: inline-block;
 	padding:0 6px 0 23px ;
 	background: url(../images/icon/car.png) 6px center no-repeat;
+}
+
+.hr_25{
+	height: 25px;
+}
+
+.page{
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.page a{
+	height: 24px;
+	display: inline-block;
+	line-height: 24px;
+	border: 1px solid #ccc;
+	padding: 2 12px;
+	margin: 0 2px;
+}
+
+.hl{
+	display: inline-block;
+	padding:0 12px;
+	margin: 0 2px;
+}
+
+.morePage{
+	padding-left: 14px;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+}
+
+.pageNum{
+	width: 29px;
+	padding: 0 3px;
+	border: 1px solid #ccc;
+	height: 24px;
+	line-height: 24px/9;
+	text-align: center;
+	margin-left: 4px;
+}
+
+.page_btn{
+	width: 44px;
+	height: 24px;
+	line-height: 24px;
+	background-color: #e8e8e8;
+	border: 1px solid #ccc;
+}
+
+.ye{
+	padding: 0 8px 0 6px;
+}
+
+.page a, .page span,.page input{
+	vertical-align: middle;
+	position: relative;
 }
