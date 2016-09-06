@@ -573,3 +573,75 @@
 	display: inline-block;
 	margin-right: 1px;
 }
+
+.vertical li{
+	width: auto;
+	float: none;
+	padding-left: 8px;
+
+}
+
+.vertical .nav_title,.vertical .nav_cont h3{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+/*筛选*/
+.screening{
+	border-bottom: 1px solid #ccc;
+}
+
+.screening dt{
+	line-height: 32px;
+	width: 74px;
+	text-align: right;
+	float: left;
+	margin-right: 42px;
+}
+
+.limit{
+	width: 55px;
+	float: left;
+	line-height: 32px;
+}
+
+.active{
+	background-color: #1d7ad9;
+	color: #fff;
+}
+
+.screening a{
+	padding: 2px;
+}
+
+.screening_list{
+	line-height: 32px;
+}
+
+.screening_list{
+	line-height: 32px;
+	width: 626px;
+	float: left;
+}
+
+.screening_list li{
+	width: 20%;
+	float: left;
+}
+
+.screen_more{
+	border: 1px solid #ccc;
+	height: 23px;
+	line-height: 23px;
+	margin-top: 4px;
+	float: left;
+	padding-right: 11px;
+	padding-left: 11px;
+	margin-right: 10px;
+}
+
+.screen_more a{
+	background: url(../images/icon/sj_grey.png) right center no-repeat;
+	padding-right: 12px;
+
+}
