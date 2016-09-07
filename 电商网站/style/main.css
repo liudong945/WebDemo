@@ -884,3 +884,53 @@
 	border-color: #317ee7;
 	position: relative;
 }
+
+.des_content{
+	padding:10px;
+}
+
+.des_content h3{
+	font:bold 16px/22px "微软雅黑";
+	padding: 13px 25px;
+}
+
+.des_content .dt{
+	width: 75px;
+	float: left;
+	color: #666;
+	text-indent: 17px;
+	line-height: 25px;
+}
+
+.des_content dl{
+	margin-bottom: 10px;
+}
+
+.des_money{
+	font-size: 18px;
+	color: #f30;
+	font-family: vertical;
+}
+
+.des_money em{
+	font-style: normal;
+	font-size: 12px;
+}
+
+/*换购*/
+.hg{
+	padding-top: 4px;
+	display: inline-block;
+}
+
+.hg_icon{
+	width: 55px;
+	height: 18px;
+	display: inline-block;
+	background: url(../images/icon/hg_icon.png) left top no-repeat;
+	color: #fff;
+	font-style: normal;
+	text-indent: 16px;
+	line-height: 18px;
+	margin-right: 10px;
+}
