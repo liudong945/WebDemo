@@ -841,5 +841,46 @@
 }
 
 .description_info{
+	background-color: #fff;
+}
 
+.decription{
+	border: 1px solid #ccc;
+}
+
+.decription .leftArea{
+	width: 309px;
+}
+
+.decription .rightArea{
+	width: 688px;
+	border-left: #ccc 1px solid;
+}
+
+/*图片展示*/
+.decription_imgs .big{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 320px;
+	text-align: center;
+}
+
+.des_smimg{
+	padding-left: 1px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.des_smimg li{
+	float: left;
+	margin-left: -1px;
+}
+
+.des_smimg img{
+	border: 1px solid #ccc;
+}
+
+.des_smimg .active{
+	border-color: #317ee7;
+	position: relative;
 }
