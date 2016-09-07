@@ -904,6 +904,7 @@
 
 .des_content dd{
 	padding-left: 75px;
+	*padding-left: 0;
 }
 
 .des_content .dl{
@@ -937,6 +938,7 @@
 	text-indent: 16px;
 	line-height: 18px;
 	margin-right: 10px;
+	float: left;
 }
 
 /*送货*/
@@ -1079,4 +1081,38 @@
 .notes{
 	color: #ccc;
 	text-indent: 17px;
+}
+
+/*产品介绍*/
+.des_info .leftArea{
+	width: 190px;
+}
+
+.des_info .rightArea{
+	width: 790px;
+}
+
+.recommend{
+	border: #ccc solid 1px;
+	background: #fff;
+	padding-bottom: 15px;
+}
+
+.recommend .tit{
+	height: 39px;
+	border-bottom: 1px solid #ccc;
+	line-height: 39px;
+	text-indent: 15px;
+	font-size: 14px;
+	background-color: #f3f3f3;
+
+}
+
+.recommend .item{
+	float: none;
+	height: auto;
+}
+
+.recommend .money{
+	padding-top: 0px;
 }
