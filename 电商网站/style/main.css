@@ -1040,3 +1040,43 @@
 	color: #fb7700;
 	font-style: normal;
 }
+
+/*已选择*/
+
+.des_select{
+	font-weight: bold;
+	margin: 22px 0 12px;
+	text-indent: 17px;
+}
+
+.des_select span{
+	color: #0479c9;
+}
+.shop_buy{
+	text-align: center;
+}
+
+.shopping_btn,.buy_btn{
+	display:inline-block;
+	width: 184px;
+	height: 48px;
+	background: url(../images/buy_car.png) left top no-repeat;
+}
+
+.line{
+	height: 90px;
+	width: 1px;
+	overflow: hidden;
+	background-color: #ccc;
+	display: inline-block;
+	margin: 0 40px;
+}
+
+.line,.shopping_btn,.buy_btn{
+	vertical-align: middle;
+}
+
+.notes{
+	color: #ccc;
+	text-indent: 17px;
+}
