@@ -816,3 +816,30 @@
 	vertical-align: middle;
 	position: relative;
 }
+
+/*商品介绍*/
+.grey{
+	background: #f0f0f0;
+}
+
+.userPosition{
+	font-size: 0;
+	font-family: Verdana;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.userPosition em,.userPosition strong,.userPosition span,.userPosition a{
+	font-size:12px;
+}
+.userPosition em{
+	font-style: normal;
+}
+
+.userPosition a:hover{
+	text-decoration: underline;
+}
+
+.description_info{
+
+}
