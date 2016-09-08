@@ -1484,3 +1484,15 @@
 .jian{
 	padding:0 3px;
 }
+
+.affirm{
+	width: 114px;
+	height: 28px;
+	background: url(../images/sh_bt.png)left top no-repeat;
+}
+
+.radio{
+	position: relative;
+	top: 3px;
+	margin-right: 4px;
+}
