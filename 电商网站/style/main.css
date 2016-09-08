@@ -1436,6 +1436,7 @@
 	line-height: 31px;
 	font-family: "微软雅黑";
 	text-indent: 12px;
+	border-bottom: 1px solid #e3e3e3;
 }
 
 .shopping_shop{
@@ -1495,4 +1496,121 @@
 	position: relative;
 	top: 3px;
 	margin-right: 4px;
+}
+
+.backCar{
+	float: right;
+	font-size: 12px;
+	font-family: "宋体";
+	margin-right: 33px;
+	color: #3377ff;
+}
+
+.backCar:hover{
+	text-decoration: underline;
+}
+
+.cart_item{
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+
+.cart_head{
+	padding-top: 5px;
+}
+
+.cart_head .cart_item{
+	line-height: 28px;
+}
+
+.t_name{
+	width: 440px;
+	padding-left: 30px;
+}
+
+.t_price{
+	width: 134px;
+}
+
+.t_return{
+	width: 136px;
+}
+
+.t_num{
+	width: 135px;
+}
+
+.t_subtotal{
+	width: 123px;
+}
+
+.t_red{
+	color: red;
+}
+/*商品信息*/
+.cart_cont{
+	border-bottom: 1px solid #ccc;
+}
+
+.cart_cont .cart_item{
+	border-bottom: none;
+}
+
+.cart_cont .t_price,
+.cart_cont .t_return,
+.cart_cont .t_num,
+.cart_cont .t_subtotal{
+	line-height: 37px;
+}
+
+.cart_shopInfo img{
+	width: 60px;
+	height: 80px;
+	padding: 10px;
+	display: block;
+	float: left;
+}
+
+.cart_shopInfo_cont{
+	padding-left: 90px;
+	font-size: 12px;
+}
+
+.cart_link{
+	line-height: 37px;
+	margin-bottom: 30px;
+}
+
+.cart_link a:hover{
+	text-decoration: underline;
+}
+
+.cart_info{
+	color: #000;
+}
+
+.cart_message{
+	line-height: 40px;
+}
+
+.cart_prompt{
+	line-height: 40px;
+	padding-left: 30px;
+	color: red;
+}
+
+.cart_prompt_icon{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	background: url(../images/icon/icon_cart_prompt.png)left top no-repeat;
+	margin-right: 11px;
+}
+
+.pb_10{
+	padding-bottom: 10px;
+}
+
+.cart_no_bor{
+	padding-bottom: none;
 }
