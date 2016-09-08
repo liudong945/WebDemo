@@ -1382,3 +1382,105 @@
 	margin: 10px;
 }
 
+/*购物车*/
+.stepBox{
+	width: 396px;
+	padding-top: 26px;
+}
+
+.step{
+	background: url(../images/step.png) left top no-repeat;
+	height: 19px;
+}
+
+.step_text{
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.step_text li{
+	float: left;
+}
+.s01,.s03{
+	width: 30%;
+}
+
+.s02{
+	width: 40%;
+	text-align: center;
+}
+
+.s03{
+	text-align: right;
+}
+
+.step_text .active{
+	color: #f3e402;
+	font-weight: bold;
+}
+
+.shoppingCart{
+	padding-top: 10px;
+}
+
+.shopping_item{
+	border:1px solid #ccc;
+}
+
+.shopping_tit{
+	height: 31px;
+	background: url(../images/shop_bg.png) left top repeat-x;
+	color: #444444;
+	font:16px;
+	line-height: 31px;
+	font-family: "微软雅黑";
+	text-indent: 12px;
+}
+
+.shopping_shop{
+	padding:25px 30px;
+}
+
+.shopping_list_text{
+	float: left;
+	width: 76px;
+	line-height: 24px;
+}
+
+.shopping_list {
+	margin-left: 5px;
+}
+.shopping_list li{
+	height: 24px;
+	margin-bottom: 10px;
+}
+
+.shopping_list_text em{
+	color: #f30;
+	font-style: normal;
+	margin-right: 5px;
+}
+
+.input{
+	height: 22px;
+	border:1px solid #ccc;
+	padding: 0 6px;
+	width: 110px;
+}
+
+.input_b{
+	width: 392px;
+}
+
+.input_s{
+	width: 64px;
+}
+
+.input_s2{
+	width: 84px;
+}
+
+.jian{
+	padding:0 3px;
+}
