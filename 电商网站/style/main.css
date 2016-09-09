@@ -1449,6 +1449,10 @@
 	line-height: 24px;
 }
 
+.cart_tel,.input{
+	vertical-align: middle;
+}
+
 .shopping_list {
 	margin-left: 5px;
 }
@@ -1465,6 +1469,7 @@
 
 .input{
 	height: 22px;
+	line-height: 22px\9;
 	border:1px solid #ccc;
 	padding: 0 6px;
 	width: 110px;
@@ -1611,6 +1616,37 @@
 	padding-bottom: 10px;
 }
 
+.padding_shop{
+	padding: 20px;
+}
+
 .cart_no_bor{
 	padding-bottom: none;
+}
+
+.cart_rmb i{
+	font-size: 14px;
+	color: #999;
+	font-style: normal;
+}
+
+.cart_rmb span{
+	font-size: 24px; 
+	color: red;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.cart_btnBox{
+	margin-top: 10px;
+	text-align: right;
+}
+.cart_btn{
+	width: 165px;
+	height: 33px;
+	background-color: #e50007;
+	font-size: 18px;
+	line-height: 33px;
+	font-family: "微软雅黑";
+	color: #fff;
 }
