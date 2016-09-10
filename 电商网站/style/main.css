@@ -1736,3 +1736,46 @@
 	right: 31px;
 	bottom: -32px;
 }
+
+/*注册*/
+.reg_logo .comWidth{
+	width: 630px;
+}
+
+.regBox{
+	width: 628px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}
+
+.reg_item{
+	font:14px/34px "宋体";
+	width: 110px;
+	text-align: right;
+	float: left;
+}
+
+.reg_item i{
+	color: red;
+	font-style: normal;
+	margin-right: 5px;
+}
+
+.input_item{
+	width: 306px;
+	float: left;
+}
+
+.regBox li{
+	height: 70px;
+	vertical-align: top;
+}
+
+.regBox .autoLogin{
+	height: 46px;
+	padding: 0px;
+}
+
+.regBox .login_cont{
+	padding: 35px 76px 20px 76px;
+}
