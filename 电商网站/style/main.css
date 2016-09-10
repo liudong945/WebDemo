@@ -1650,3 +1650,89 @@
 	font-family: "微软雅黑";
 	color: #fff;
 }
+
+/*登录*/
+.login_logo .comWidth{
+	width: 460px;
+}
+
+.welcome_title{
+	font-size:22px;
+	line-height: 85px;
+	font-family: "微软雅黑";
+	color: #fff;
+	float: left;
+	padding-left: 24px;
+}
+
+.loginBox{
+	width: 458px;
+	border: #999 1px solid;
+	margin: 10px auto;
+	position: relative;
+}
+
+.login_cont{
+	padding: 15px 76px;
+}
+
+.l_tit{
+	color: #666;
+	line-height: 20px;
+}
+
+.login_input{
+	border: 1px solid #999;
+	height: 32px;
+	line-height: 32px\9;
+	text-indent: 5px;
+	width: 100%;
+}
+
+.mb_10{
+	margin-bottom: 10px;
+}
+.user_icon{
+	background: url(../images/icon/user_icon.png)98% center no-repeat;
+}
+
+.autoLogin{
+	padding-top: 27px;
+	padding-bottom: 28px;
+}
+
+.checked{
+	position: relative;
+	top: 3px;
+	margin-right: 3px;
+}
+
+.login_btn{
+	width: 309px;
+	height: 36px;
+	background: url(../images/icon/login_btn.png) left top no-repeat;
+}
+
+.login_partners{
+	padding-top: 34px;
+}
+
+.login_list li{
+	float: left;
+	line-height: 20px;
+
+}
+
+.login_list span{
+	color: #999;
+	margin: 0 2px;
+}
+
+.reg_link{
+	width: 115px;
+	height: 31px;
+	background: url(../images/icon/reg_link.png) left top no-repeat;
+	position: absolute;
+	right: 31px;
+	bottom: -32px;
+}
